@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="实验室系列占位图">
+  <rect width="1200" height="900" fill="#f1ede5"/>
+  <rect x="130" y="140" width="940" height="610" fill="#d8cec0"/>
+  <path d="M270 250v270c0 90 74 164 164 164h332c90 0 164-74 164-164V250" fill="none" stroke="#1f1f1d" stroke-width="18"/>
+  <path d="M360 250h480" stroke="#1f1f1d" stroke-width="18"/>
+  <circle cx="445" cy="460" r="44" fill="#24463c"/>
+  <circle cx="610" cy="545" r="62" fill="#7d2f2a"/>
+  <circle cx="755" cy="430" r="38" fill="#f7f4ef"/>
+  <text x="130" y="830" fill="#1f1f1d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="34">实验室系列 · 项目记录</text>
+</svg>

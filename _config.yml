@@ -1,0 +1,29 @@
+title: "戴雨静"
+description: "影像、采访与公共叙事的实践记录"
+lang: zh-CN
+url: ""
+baseurl: ""
+
+include:
+  - _works
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  works:
+    output: true
+    permalink: /works/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "work"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - tools

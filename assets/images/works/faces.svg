@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="人物系列占位图">
+  <rect width="1200" height="900" fill="#ebe5da"/>
+  <rect x="160" y="125" width="250" height="610" fill="#24463c"/>
+  <rect x="475" y="125" width="250" height="610" fill="#7d2f2a"/>
+  <rect x="790" y="125" width="250" height="610" fill="#1f1f1d"/>
+  <circle cx="285" cy="310" r="75" fill="#f7f4ef"/>
+  <circle cx="600" cy="310" r="75" fill="#f7f4ef"/>
+  <circle cx="915" cy="310" r="75" fill="#f7f4ef"/>
+  <path d="M230 520h110M545 520h110M860 520h110" stroke="#f7f4ef" stroke-width="16"/>
+  <text x="160" y="825" fill="#1f1f1d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="34">人物影像 · 微纪录</text>
+</svg>

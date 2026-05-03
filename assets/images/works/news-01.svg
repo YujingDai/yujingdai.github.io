@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="新闻采编占位图一">
+  <rect width="1200" height="900" fill="#f7f4ef"/>
+  <rect x="130" y="115" width="430" height="670" fill="#fffcf7" stroke="#ded8cd" stroke-width="6"/>
+  <rect x="640" y="115" width="430" height="670" fill="#fffcf7" stroke="#ded8cd" stroke-width="6"/>
+  <path d="M190 210h300M190 290h260M190 370h300M190 450h230M700 210h300M700 290h260M700 370h300M700 450h230" stroke="#1f1f1d" stroke-width="16"/>
+  <rect x="190" y="540" width="300" height="150" fill="#24463c"/>
+  <rect x="700" y="540" width="300" height="150" fill="#7d2f2a"/>
+  <text x="130" y="850" fill="#1f1f1d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="34">新闻采编 · 采访 · 摄影</text>
+</svg>

@@ -1,0 +1,14 @@
+<header class="site-header">
+  <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="返回首页">戴雨静</a>
+  <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="展开导航">
+  <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <nav class="site-nav" aria-label="主导航">
+    <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}aria-current="page"{% endif %}>首页</a>
+    <a href="{{ '/works/' | relative_url }}" {% if page.url contains "/works/" %}aria-current="page"{% endif %}>作品</a>
+    <a href="{{ '/about/' | relative_url }}" {% if page.url contains "/about/" %}aria-current="page"{% endif %}>关于</a>
+  </nav>
+</header>

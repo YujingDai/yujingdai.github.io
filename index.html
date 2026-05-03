@@ -1,0 +1,35 @@
+---
+layout: default
+title: 首页
+---
+<section class="home-hero">
+  <div class="hero-copy">
+    <p class="eyebrow">影像 · 采访 · 传播</p>
+    <h1>戴雨静</h1>
+    <p class="hero-lead">影像、采访与公共叙事的实践记录。</p>
+    <p class="hero-text">以摄影、视频、新闻采编和传播项目记录，整理事业单位宣传工作中的影像实践、人物观察与内容生产。</p>
+  </div>
+  <figure class="hero-visual">
+    <img src="{{ '/assets/images/works/home_cover.png' | relative_url }}?v={{ site.time | date: '%s' }}" alt="戴雨静影像作品封面">
+  </figure>
+</section>
+
+<section class="section-block">
+  <div class="section-heading">
+    <h2>精选作品</h2>
+    <a class="section-link" href="{{ '/works/' | relative_url }}">查看全部</a>
+  </div>
+  <div class="work-grid">
+    {% assign featured_works = site.works | where: "featured", true | sort: "order" %}
+    {% for work in featured_works limit: 6 %}
+      <a class="work-card" href="{{ work.url | relative_url }}">
+        {% include work-cover.html item=work %}
+        <span class="work-info">
+          <small>{{ work.category }} · {{ work.year }}</small>
+          <strong>{{ work.title }}</strong>
+          <em>{{ work.summary }}</em>
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

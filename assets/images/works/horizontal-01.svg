@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="横屏视频占位图一">
+  <rect width="1200" height="900" fill="#ece7df"/>
+  <rect x="105" y="190" width="990" height="520" fill="#1f1f1d"/>
+  <rect x="155" y="240" width="890" height="420" fill="#24463c"/>
+  <circle cx="600" cy="450" r="92" fill="#f7f4ef"/>
+  <path d="M575 395l92 55-92 55z" fill="#7d2f2a"/>
+  <text x="105" y="800" fill="#1f1f1d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="34">横屏影像 · 01</text>
+</svg>

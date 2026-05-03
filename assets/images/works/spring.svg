@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="春分 AIGC 影像占位图">
+  <rect width="1200" height="900" fill="#f3efe5"/>
+  <rect x="110" y="110" width="980" height="680" fill="#dce5d6"/>
+  <path d="M210 650C370 430 490 540 630 330c120-180 240-110 360-230" fill="none" stroke="#24463c" stroke-width="18"/>
+  <circle cx="360" cy="430" r="88" fill="#f7f4ef"/>
+  <circle cx="590" cy="350" r="58" fill="#7d2f2a"/>
+  <circle cx="820" cy="245" r="76" fill="#24463c"/>
+  <text x="110" y="850" fill="#1f1f1d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="34">春分影像 · AIGC 实践</text>
+</svg>

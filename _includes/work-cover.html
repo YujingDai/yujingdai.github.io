@@ -1,0 +1,10 @@
+{% assign cover_item = include.item %}
+{% assign cover_slug = cover_item.slug %}
+{% assign fallback_cover = cover_item.cover | default: '/assets/images/works/photo.svg' %}
+{% assign cover_base = '/_works/' | append: cover_slug %}
+<img
+  class="work-cover-img"
+  src="{{ fallback_cover | relative_url }}?v={{ site.time | date: '%s' }}"
+  data-cover-base="{{ cover_base | relative_url }}"
+  data-cover-version="{{ site.time | date: '%s' }}"
+  alt="{{ cover_item.title }}">

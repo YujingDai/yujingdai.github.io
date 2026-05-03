@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="work-detail">
+  <header class="detail-header">
+    <p class="eyebrow">{{ page.category }} · {{ page.year }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.role %}
+      <p class="detail-role">{{ page.role }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.embed %}
+    <div class="video-frame">
+      {{ page.embed }}
+    </div>
+  {% elsif page.cover %}
+    <figure class="detail-cover">
+      {% include work-cover.html item=page %}
+    </figure>
+  {% endif %}
+
+  <div class="prose">
+    {{ content }}
+
+    {% if page.external_url %}
+      <p class="archive-link"><a href="{{ page.external_url }}" target="_blank" rel="noopener">查看原始发布页面</a></p>
+    {% endif %}
+  </div>
+</article>

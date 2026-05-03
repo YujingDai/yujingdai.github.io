@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="摄影档案占位图">
+  <rect width="1200" height="900" fill="#f7f4ef"/>
+  <rect x="135" y="135" width="930" height="610" fill="#1f1f1d"/>
+  <rect x="205" y="205" width="790" height="470" fill="#d8cec0"/>
+  <circle cx="420" cy="390" r="95" fill="#24463c"/>
+  <path d="M230 675l280-260 150 130 120-110 210 240z" fill="#7d2f2a"/>
+  <text x="135" y="825" fill="#1f1f1d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="34">摄影作品 · 现场记录</text>
+</svg>

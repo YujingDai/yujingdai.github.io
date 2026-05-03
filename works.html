@@ -1,0 +1,26 @@
+---
+layout: default
+title: 作品
+permalink: /works/
+---
+<section class="page-intro">
+  <p class="eyebrow">作品索引</p>
+  <h1>作品</h1>
+  <p>整理短视频、横屏影像、传播项目记录与摄影作品。封面按原始横竖比例排布，适合持续加入不同尺寸的影像素材。</p>
+</section>
+
+<section class="section-block flush-top">
+  <div class="work-grid all-works">
+    {% assign all_works = site.works | sort: "order" %}
+    {% for work in all_works %}
+      <a class="work-card" href="{{ work.url | relative_url }}">
+        {% include work-cover.html item=work %}
+        <span class="work-info">
+          <small>{{ work.category }} · {{ work.year }}</small>
+          <strong>{{ work.title }}</strong>
+          <em>{{ work.summary }}</em>
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

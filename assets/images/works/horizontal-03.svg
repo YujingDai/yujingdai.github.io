@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="横屏视频占位图三">
+  <rect width="1200" height="900" fill="#e8e2d8"/>
+  <rect x="110" y="160" width="980" height="580" fill="#24463c"/>
+  <rect x="190" y="245" width="820" height="410" fill="#f7f4ef"/>
+  <path d="M260 560h680" stroke="#1f1f1d" stroke-width="14"/>
+  <path d="M330 500h280" stroke="#7d2f2a" stroke-width="14"/>
+  <circle cx="790" cy="405" r="86" fill="#1f1f1d"/>
+  <text x="110" y="810" fill="#1f1f1d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="34">横屏影像 · 03</text>
+</svg>
