@@ -27,3 +27,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - tools
+  - _works/_template.md
